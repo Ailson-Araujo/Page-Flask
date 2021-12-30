@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Analyzer</title>
+        <!-- <link rel="profile" href="https://gmpg.org/xfn/11">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"> -->
+    <meta name="description" content="Solução eficaz para gerenciamento, processamento e análise.">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="Software">
+    <meta property="og:title" content="Solução eficaz para gerenciamento, processamento e análise.">
+    <meta property="og:description" content="Solução eficaz para gerenciamento, processamento e análise...">
+    <meta property="og:url" content="https://ailson-araujo.github.io/XML-Analyzer/">
+    <meta property="og:site_name" content="Ailson Araujo - BR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@ailsonojuara">
+    <meta name="twitter:site" content="@ailsonojuara">
+    <link rel="canonical" href="https://ailson-araujo.github.io/XML-Analyzer/">
+    <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/license.css')}}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4df1ca936a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="head">
+                <img src="{{ url_for('static', filename='image/background_03.jpg') }}" alt="imagem logo">
+            </div>
+            <div class="banner">
+                <img src="{{ url_for('static', filename='image/nome.png') }}" alt="">
+                <h1><p>Solução eficaz para gerenciamento, processamento e análise.</p></h1>
+                <form method="GET" action="https://mega.nz/file/GxYn2Q6L#338XGTmIS8n1vWv22OfnXKWColZxMHOMtI4vr5GRfTE" target="_blank">
+                    <button>Download</button>
+                </form>
+            </div>
+        </header>
+    </section>
+    <section class="titulo_funcao">
+        <p>Funções</p>
+    </section>
+    <section class="conteiner">
+        <div class="funcao">
+            <h1>Visualização de dados</h1>
+            <p>Exibe os dados de maior interesse do arquivo processado juntamente com a media das estações que participaram do DF. <a href="visualizacao">Saiba Mais</a></p>
+            
+        </div>
+
+        <div class="funcao">
+            <h1>Plotagem</h1>
+            <p>Exibe em mapa as posições de interesse, com ou sem a porcentagem de confiabilidade. Calculo de distância entre posições e Personalização das camadas do mapa. <a href="plotagem">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Mensagem</h1>
+            <p>Realize a construção da mensagem de maneira semiautomática com avaliação quantitativa dos fixos. <a href="mensagem">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Base de Dados</h1>
+            <p>Salve as principais informações e arquivos em uma unica base de dados. <a href="basedados">Saiba Mais</a></p>
+        </div>
+
+        <!-- <div class="funcao">
+            <h1>Gerenciamento</h1>
+            <p>Gerencie os dados realizando filtragens simples ou complexas, exportando dados em formato "CSV". <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>QGIS</h1>
+            <p>Arquivo Exportado da tabela de gerenciamento compatível para inserção em projetos do QGIS. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Análise</h1>
+            <p>Obtenha de maneira fácil uma análise quantitativa dos dados filtrados. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Pontuação</h1>
+            <p>Tenha um controle de pontuação para cada tipo de categoria com relatório anual, semestral, trimestral e mensal. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Backup</h1>
+            <p>Realize backup mensal ou semanal de maneira totalmente automática ou manual. <a href="">Saiba Mais</a></p>
+        </div> -->
+    </section>
+    <section class="license">
+        <h1>Solicite sua licença</h1>
+        <form action="https://api.staticforms.xyz/submit", method="POST">
+            <input type="hidden" name="accessKey" value="7a5ac699-1d29-484c-8318-4a353f5c961e">
+            <input type="hidden" name="redirectTo" value="https://ailson-araujo.github.io/XML-Analyzer/return.html">
+
+            <label for="inputNome">Nome de Guerra:</label>
+            <input type="text", id="inputNome" name="name" required maxlength="30">
+
+            <label for="inputOM">Organização Militar (Sigla):</label>
+            <input type="text", id="inputOM" name="subject" required maxlength="30">
+
+            <label for="inputEmail">Email:</label>
+            <input type="email", id="inputEmail" name="email" required maxlength="50">
+
+            <label for="textMSG">Mensagem:</label>
+            <textarea name="message" id="textMSG" required maxlength="200"></textarea>
+
+            <button>Solicitar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="social">
+            <a href="https://api.whatsapp.com/send?phone=5591980193666" target="_blank">
+                <i class="fab fa-whatsapp fa-lg"></i>
+            </a>
+            <a href="https://twitter.com/AilsonOjuara" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+        </div>
+        <p>Copyright &copy; Ailson Araujo - 2021</p>
+    </footer>
+</body>
+</html>
