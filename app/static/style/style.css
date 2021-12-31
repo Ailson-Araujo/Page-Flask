@@ -36,6 +36,11 @@ header{
     animation: zoom-background 8s;
 }
 
+.space{
+    padding: 30%;
+    background-color: rgb(27,29,35);
+}
+
 .banner{
     position: absolute;
     width: 100%;

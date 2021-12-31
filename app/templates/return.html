@@ -18,8 +18,8 @@
     <meta name="twitter:site" content="@ailsonojuara">
     <link rel="canonical" href="https://ailson-araujo.github.io/XML-Analyzer/">
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/license.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/license.css')}}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4df1ca936a.js" crossorigin="anonymous"></script>
@@ -28,10 +28,10 @@
     <section>
         <header>
             <div class="head">
-                <img src="imagens/background_03.jpg" alt="imagem logo">
+                <img src="{{url_for('static', filename='image/background_03.jpg')}}" alt="imagem logo">
             </div>
             <div class="banner">
-                <a href="index.html"> <img src="imagens/nome.png" alt=""></a>
+                <a href="index"> <img src="{{url_for('static', filename='image/nome.png')}}""imagens/nome.png" alt=""></a>
                 <p>Solicitação de licença enviada com sucesso.</p>
                 <!-- <form method="GET" action="https://mega.nz/file/jk5kCQRb#FRo0cZBYJORG3Ab3bWFjPcfytPSW213HKcyCm-uSMxQ" target="_blank">
                     <button>Download</button>

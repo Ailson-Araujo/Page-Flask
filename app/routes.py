@@ -8,15 +8,18 @@ def home():
 
 @app.route('/basedados')
 def base_dados():
-    return render_template('basedados.html')
+    name_title = 'Base de Dados'
+    return render_template('basedados.html', name_title = name_title)
 
 @app.route('/mensagem')
 def message():
-    return render_template('mensagem.html')
+    name_title = 'Mensagem'
+    return render_template('mensagem.html', name_title = name_title)
 
 @app.route('/plotagem')
 def plotagem():
-    return render_template('plotagem.html')
+    name_title = 'Plotagem'
+    return render_template('plotagem.html', name_title = name_title)
 
 @app.route('/return')
 def return_page():
@@ -24,4 +27,5 @@ def return_page():
 
 @app.route('/visualizacao')
 def visualizacao():
-    return render_template('visualizacao.html')
+    name_title = 'Visualização de Dados'
+    return render_template('visualizacao.html', name_title = name_title)

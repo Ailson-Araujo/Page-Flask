@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='image/icone.ico')}}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/license.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/funcao.css')}}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4df1ca936a.js" crossorigin="anonymous"></script>
+    <title>XML Analyzer</title>
+</head>
+<body>
+    <section class="titulo_funcao">
+        <p>{{name_title}}</p>
+    </section>
+
+    {% block conteudo %}
+
+    {% endblock %}
+
+    <footer>
+        <div class="social">
+            <a href="https://api.whatsapp.com/send?phone=5591980193666" target="_blank">
+                <i class="fab fa-whatsapp fa-lg"></i>
+            </a>
+            <a href="https://twitter.com/AilsonOjuara" target="_blank">
+                <i class="fab fa-twitter fa-lg"></i>
+            </a>
+        </div>
+        <p>Copyright &copy; Ailson Araujo - 2021</p>
+    </footer>
+</body>
+</html>
